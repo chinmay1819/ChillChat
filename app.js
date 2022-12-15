@@ -1,7 +1,7 @@
 const express=require('express');
 const app=express();
 const http=require('http').createServer(app)
-
+const hostname='0.0.0.0';
 const PORT=process.env.PORT || 3000;
 
 http.listen(PORT,()=>{
